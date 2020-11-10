@@ -1,1 +1,12 @@
+.board{
+  width: 75%;
+  height: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
 
+.size{
+  text-align: center;
+  font-size: 50px;
+}
