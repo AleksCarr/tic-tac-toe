@@ -56,7 +56,7 @@ cell1.addEventListener("click", function(){
     first_turn = false;
     second_turn = true;
 
-  } if(occupCell1 == "" && second_turn === true){
+  }else if(occupCell1 == "" && second_turn === true){
     document.querySelector(".X-Cell1").style.visibility = "visible";
     occupCell1 = "X";
     first_turn = true;
