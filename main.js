@@ -62,7 +62,7 @@ cell1.addEventListener("click", function(){
     first_turn = true;
     second_turn = false;
   }
-
+  win_condi();
 });
 
 
@@ -79,6 +79,7 @@ cell2.addEventListener("click", function(){
     first_turn = true;
     second_turn = false;
   }
+  win_condi();
 });
 
 
@@ -96,6 +97,7 @@ cell3.addEventListener("click", function(){
     second_turn = false;
 
   }
+  win_condi();
 
 });
 
@@ -113,6 +115,7 @@ cell4.addEventListener("click", function(){
     first_turn = true;
     second_turn = false;
   }
+  win_condi();
 });
 
 
@@ -129,7 +132,7 @@ cell5.addEventListener("click", function(){
     first_turn = true;
     second_turn = false;
   }
-
+  win_condi();
 });
 
 
@@ -146,6 +149,7 @@ cell6.addEventListener("click", function(){
     first_turn = true;
     second_turn = false;
   }
+  win_condi();
 });
 
 
@@ -162,6 +166,7 @@ cell7.addEventListener("click", function(){
     first_turn = true;
     second_turn = false;
   }
+  win_condi();
 });
 
 
@@ -178,6 +183,7 @@ cell8.addEventListener("click", function(){
     first_turn = true;
     second_turn = false;
   }
+  win_condi();
 });
 
 
@@ -194,7 +200,9 @@ cell9.addEventListener("click", function(){
     first_turn = true;
     second_turn = false;
   }
+  win_condi();
 });
+<<<<<<< HEAD
 const p = document.createElement('p');
 const first = document.querySelector('body');
 const div = document.createElement('div');
@@ -204,3 +212,55 @@ if(first_turn == true){
 }else if(second_turn == true){
   document.querySelector('div').textContent = "It is player 2's turn";
 };
+=======
+
+function win_condi(){
+
+  if((occupCell1 == "O" && occupCell2 == "O" && occupCell3 == "O") ||
+    (occupCell1 == "X" && occupCell2 == "X" && occupCell3 == "X")){
+    alert(occupCell1 + " Wins!");
+  }
+
+  if ((occupCell4 == "O" && occupCell5 == "O" && occupCell6 == "O") ||
+    (occupCell4 == "X" && occupCell5 == "X" && occupCell6 == "X")) {
+      alert(occupCell4 + " Wins!");
+
+  }
+
+  if ((occupCell7 == "O" && occupCell8 == "O" && occupCell9 == "O") ||
+    (occupCell7 == "X" && occupCell8 == "X" && occupCell9 == "X")) {
+      alert(occupCell7 + " Wins!");
+
+  }
+
+  if ((occupCell1 == "O" && occupCell4 == "O" && occupCell7 == "O") ||
+    (occupCell1 == "X" && occupCell4 == "X" && occupCell7 == "X")) {
+      alert(occupCell1 + " Wins!");
+
+  }
+
+  if ((occupCell2 == "O" && occupCell5 == "O" && occupCell8 == "O") ||
+    (occupCell2 == "X" && occupCell5 == "X" && occupCell8 == "X")) {
+      alert(occupCell2 + " Wins!");
+
+  }
+
+  if ((occupCell3 == "O" && occupCell6 == "O" && occupCell9 == "O") ||
+    (occupCell3 == "X" && occupCell6 == "X" && occupCell9 == "X")) {
+      alert(occupCell3 + " Wins!");
+
+  }
+
+  if ((occupCell1 == "O" && occupCell5 == "O" && occupCell9 == "O") ||
+    (occupCell1 == "X" && occupCell5 == "X" && occupCell9 == "X")) {
+      alert(occupCell1 + " Wins!");
+
+  }
+  
+  if ((occupCell13 == "O" && occupCell5 == "O" && occupCell7 == "O") ||
+    (occupCell3 == "X" && occupCell5 == "X" && occupCell7 == "X")) {
+      alert(occupCell3 + " Wins!");
+  }
+
+}
+>>>>>>> 1d01247c387603b4c93853988c7ab6970bffe182
