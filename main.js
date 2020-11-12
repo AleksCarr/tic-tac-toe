@@ -26,9 +26,74 @@ document.querySelector(".X-Cell8").style.visibility = "hidden";
 document.querySelector(".O-Cell9").style.visibility = "hidden";
 document.querySelector(".X-Cell9").style.visibility = "hidden";
 
-const cell4 = document.querySelector('.Cell4');
+const cell1 = document.querySelector('.Cell1');
 
+
+cell1.addEventListener("click", function(){
+  document.querySelector(".O-Cell1").style.visibility = "visible";
+    document.querySelector(".X-Cell1").style.visibility = "visible";
+});
+
+const cell2 = document.querySelector('.Cell2');
+
+
+cell2.addEventListener("click", function(){
+  document.querySelector(".O-Cell2").style.visibility = "visible";
+    document.querySelector(".X-Cell2").style.visibility = "visible";
+});
+
+const cell3 = document.querySelector('.Cell3');
+
+
+cell3.addEventListener("click", function(){
+  document.querySelector(".O-Cell3").style.visibility = "visible";
+    document.querySelector(".X-Cell3").style.visibility = "visible";
+});
+
+const cell4 = document.querySelector('.Cell4');
 
 cell4.addEventListener("click", function(){
   document.querySelector(".O-Cell4").style.visibility = "visible";
+    document.querySelector(".X-Cell4").style.visibility = "visible";
+});
+
+const cell5 = document.querySelector('.Cell5');
+
+
+cell5.addEventListener("click", function(){
+  document.querySelector(".O-Cell5").style.visibility = "visible";
+    document.querySelector(".X-Cell5").style.visibility = "visible";
+});
+
+const cell6 = document.querySelector('.Cell6');
+
+
+cell6.addEventListener("click", function(){
+  document.querySelector(".O-Cell6").style.visibility = "visible";
+    document.querySelector(".X-Cell6").style.visibility = "visible";
+});
+
+
+const cell7 = document.querySelector('.Cell7');
+
+
+cell7.addEventListener("click", function(){
+  document.querySelector(".O-Cell7").style.visibility = "visible";
+  document.querySelector(".X-Cell7").style.visibility = "visible";
+});
+
+const cell8 = document.querySelector('.Cell8');
+
+
+cell8.addEventListener("click", function(){
+  document.querySelector(".O-Cell8").style.visibility = "visible";
+    document.querySelector(".X-Cell8").style.visibility = "visible";
+});
+
+const cell9 = document.querySelector('.Cell9');
+
+
+cell9.addEventListener("click", function(){
+  document.querySelector(".O-Cell9").style.visibility = "visible";
+    document.querySelector(".X-Cell9").style.visibility = "visible";
 });
