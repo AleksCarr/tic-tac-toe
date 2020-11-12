@@ -195,3 +195,12 @@ cell9.addEventListener("click", function(){
     second_turn = false;
   }
 });
+const p = document.createElement('p');
+const first = document.querySelector('body');
+const div = document.createElement('div');
+if(first_turn == true){
+  div.textContent = "It is player 1's turn";
+  first.appendChild(div);
+}else if(second_turn == true){
+  document.querySelector('div').textContent = "It is player 2's turn";
+};
