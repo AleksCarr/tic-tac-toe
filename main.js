@@ -257,3 +257,10 @@ function win_condi(){
   }
 
 }
+if (first_turn == true && second_turn == false){
+  document.querySelector(".player1").style.visibility = "visible";
+  document.querySelector(".player2").style.visibility = "hidden";
+}else if(first_turn == false && second_turn == true){
+  document.querySelector(".player1").style.visibility = "hidden";
+  document.querySelector(".player2").style.visibility = "visible";
+}
