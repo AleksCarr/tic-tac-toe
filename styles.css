@@ -83,7 +83,9 @@
   left: 1000px;
 }
 
-div {
+
+.player1,
+.player2 {
   text-align: center;
   font-size: 40px;
 }
