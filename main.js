@@ -202,13 +202,8 @@ cell9.addEventListener("click", function(){
   }
   win_condi();
 });
-
-<<<<<<< HEAD
 const blankWins = document.querySelector('.size');
 
-
-=======
->>>>>>> bdd8fe7ff41ea66de449e8baeefeed9064c56e0b
 
 function win_condi(){
 
@@ -257,6 +252,7 @@ function win_condi(){
   }
 
 }
+
 if (first_turn == true && second_turn == false){
   document.querySelector(".player1").style.visibility = "visible";
   document.querySelector(".player2").style.visibility = "hidden";
