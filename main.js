@@ -1,31 +1,31 @@
 
-document.querySelectorAll(".O-Cell4")[0].style.visibility = "hidden";
-document.querySelectorAll(".X-Cell4")[0].style.visibility = "hidden";
+document.querySelector(".O-Cell4").style.visibility = "hidden";
+document.querySelector(".X-Cell4").style.visibility = "hidden";
 
-document.querySelectorAll(".O-Cell1")[0].style.visibility = "hidden";
-document.querySelectorAll(".X-Cell1")[0].style.visibility = "hidden";
+document.querySelector(".O-Cell1").style.visibility = "hidden";
+document.querySelector(".X-Cell1").style.visibility = "hidden";
 
-document.querySelectorAll(".O-Cell2")[0].style.visibility = "hidden";
-document.querySelectorAll(".X-Cell2")[0].style.visibility = "hidden";
+document.querySelector(".O-Cell2").style.visibility = "hidden";
+document.querySelector(".X-Cell2").style.visibility = "hidden";
 
-document.querySelectorAll(".O-Cell3")[0].style.visibility = "hidden";
-document.querySelectorAll(".X-Cell3")[0].style.visibility = "hidden";
+document.querySelector(".O-Cell3").style.visibility = "hidden";
+document.querySelector(".X-Cell3").style.visibility = "hidden";
 
-document.querySelectorAll(".O-Cell5")[0].style.visibility = "hidden";
-document.querySelectorAll(".X-Cell5")[0].style.visibility = "hidden";
+document.querySelector(".O-Cell5").style.visibility = "hidden";
+document.querySelector(".X-Cell5").style.visibility = "hidden";
 
-document.querySelectorAll(".O-Cell6")[0].style.visibility = "hidden";
-document.querySelectorAll(".X-Cell6")[0].style.visibility = "hidden";
+document.querySelector(".O-Cell6").style.visibility = "hidden";
+document.querySelector(".X-Cell6").style.visibility = "hidden";
 
-document.querySelectorAll(".O-Cell7")[0].style.visibility = "hidden";
-document.querySelectorAll(".X-Cell7")[0].style.visibility = "hidden";
+document.querySelector(".O-Cell7").style.visibility = "hidden";
+document.querySelector(".X-Cell7").style.visibility = "hidden";
 
-document.querySelectorAll(".O-Cell8")[0].style.visibility = "hidden";
-document.querySelectorAll(".X-Cell8")[0].style.visibility = "hidden";
+document.querySelector(".O-Cell8").style.visibility = "hidden";
+document.querySelector(".X-Cell8").style.visibility = "hidden";
 
-document.querySelectorAll(".O-Cell9")[0].style.visibility = "hidden";
-document.querySelectorAll(".X-Cell9")[0].style.visibility = "hidden";
+document.querySelector(".O-Cell9").style.visibility = "hidden";
+document.querySelector(".X-Cell9").style.visibility = "hidden";
 
 document.body.addEventListener("click", function(){
-  document.querySelectorAll(".O-Cell4")[0].style.visibility = "visible";
+  document.querySelector(".O-Cell4").style.visibility = "visible";
 });
