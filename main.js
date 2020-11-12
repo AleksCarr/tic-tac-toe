@@ -203,52 +203,54 @@ cell9.addEventListener("click", function(){
   win_condi();
 });
 
+const blankWins = document.querySelector('.size');
+
+
+
 function win_condi(){
 
   if((occupCell1 == "O" && occupCell2 == "O" && occupCell3 == "O") ||
     (occupCell1 == "X" && occupCell2 == "X" && occupCell3 == "X")){
-    alert(occupCell1 + " Wins!");
+    blankWins.textContent = occupCell1 + " Wins!";
   }
 
   if ((occupCell4 == "O" && occupCell5 == "O" && occupCell6 == "O") ||
     (occupCell4 == "X" && occupCell5 == "X" && occupCell6 == "X")) {
-      alert(occupCell4 + " Wins!");
+      blankWins.textContent = occupCell4 + " Wins!";
 
   }
 
   if ((occupCell7 == "O" && occupCell8 == "O" && occupCell9 == "O") ||
     (occupCell7 == "X" && occupCell8 == "X" && occupCell9 == "X")) {
-      alert(occupCell7 + " Wins!");
-
+      blankWins.textContent = occupCell7 + " Wins!";
   }
 
   if ((occupCell1 == "O" && occupCell4 == "O" && occupCell7 == "O") ||
     (occupCell1 == "X" && occupCell4 == "X" && occupCell7 == "X")) {
-      alert(occupCell1 + " Wins!");
+      blankWins.textContent = occupCell1 + " Wins!";
 
   }
 
   if ((occupCell2 == "O" && occupCell5 == "O" && occupCell8 == "O") ||
     (occupCell2 == "X" && occupCell5 == "X" && occupCell8 == "X")) {
-      alert(occupCell2 + " Wins!");
-
+      blankWins.textContent = occupCell2 + " Wins!";
   }
 
   if ((occupCell3 == "O" && occupCell6 == "O" && occupCell9 == "O") ||
     (occupCell3 == "X" && occupCell6 == "X" && occupCell9 == "X")) {
-      alert(occupCell3 + " Wins!");
+      blankWins.textContent = occupCell3 + " Wins!";
 
   }
 
   if ((occupCell1 == "O" && occupCell5 == "O" && occupCell9 == "O") ||
     (occupCell1 == "X" && occupCell5 == "X" && occupCell9 == "X")) {
-      alert(occupCell1 + " Wins!");
+      blankWins.textContent = occupCell1 + " Wins!";
 
   }
-  
-  if ((occupCell13 == "O" && occupCell5 == "O" && occupCell7 == "O") ||
+
+  if ((occupCell3 == "O" && occupCell5 == "O" && occupCell7 == "O") ||
     (occupCell3 == "X" && occupCell5 == "X" && occupCell7 == "X")) {
-      alert(occupCell3 + " Wins!");
+      blankWins.textContent = occupCell3 + " Wins!";
   }
 
 }
