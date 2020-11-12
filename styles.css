@@ -82,3 +82,8 @@
   top: 600px;
   left: 1000px;
 }
+
+div {
+  text-align: center;
+  font-size: 40px;
+}

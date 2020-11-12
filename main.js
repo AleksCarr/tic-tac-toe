@@ -203,9 +203,12 @@ cell9.addEventListener("click", function(){
   win_condi();
 });
 
+<<<<<<< HEAD
 const blankWins = document.querySelector('.size');
 
 
+=======
+>>>>>>> bdd8fe7ff41ea66de449e8baeefeed9064c56e0b
 
 function win_condi(){
 
