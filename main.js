@@ -26,6 +26,9 @@ document.querySelector(".X-Cell8").style.visibility = "hidden";
 document.querySelector(".O-Cell9").style.visibility = "hidden";
 document.querySelector(".X-Cell9").style.visibility = "hidden";
 
-document.body.addEventListener("click", function(){
+const cell4 = document.querySelector('.Cell4');
+
+
+cell4.addEventListener("click", function(){
   document.querySelector(".O-Cell4").style.visibility = "visible";
 });
