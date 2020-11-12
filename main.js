@@ -202,17 +202,7 @@ cell9.addEventListener("click", function(){
   }
   win_condi();
 });
-<<<<<<< HEAD
-const p = document.createElement('p');
-const first = document.querySelector('body');
-const div = document.createElement('div');
-if(first_turn == true){
-  div.textContent = "It is player 1's turn";
-  first.appendChild(div);
-}else if(second_turn == true){
-  document.querySelector('div').textContent = "It is player 2's turn";
-};
-=======
+
 
 function win_condi(){
 
@@ -256,11 +246,10 @@ function win_condi(){
       alert(occupCell1 + " Wins!");
 
   }
-  
-  if ((occupCell13 == "O" && occupCell5 == "O" && occupCell7 == "O") ||
+
+  if ((occupCell3 == "O" && occupCell5 == "O" && occupCell7 == "O") ||
     (occupCell3 == "X" && occupCell5 == "X" && occupCell7 == "X")) {
       alert(occupCell3 + " Wins!");
   }
 
 }
->>>>>>> 1d01247c387603b4c93853988c7ab6970bffe182
