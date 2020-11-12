@@ -47,131 +47,151 @@ let occupCell8 = "";
 let occupCell9 = "";
 
 let first_turn = true;
+let second_turn = false;
 
 cell1.addEventListener("click", function(){
   if(occupCell1 == "" && first_turn === true){
     document.querySelector(".O-Cell1").style.visibility = "visible";
     occupCell1 = "O";
     first_turn = false;
+    second_turn = true;
 
-  }else if(occupCell1 == "" && first_turn === false){
+  } if(occupCell1 == "" && second_turn === true){
     document.querySelector(".X-Cell1").style.visibility = "visible";
     occupCell1 = "X";
     first_turn = true;
+    second_turn = false;
   }
 
 });
 
 
 cell2.addEventListener("click", function(){
-  if(occupCell1 == "" && first_turn === true){
+  if(occupCell2 == "" && first_turn === true){
     document.querySelector(".O-Cell2").style.visibility = "visible";
-    occupCell1 = "O";
+    occupCell2 = "O";
     first_turn = false;
+    second_turn = true;
 
-  }else if(occupCell1 == "" && first_turn === false){
+  }else if(occupCell2 == "" && first_turn === false){
     document.querySelector(".X-Cell2").style.visibility = "visible";
-    occupCell1 = "X";
+    occupCell2 = "X";
     first_turn = true;
+    second_turn = false;
   }
 });
 
 
 cell3.addEventListener("click", function(){
-  if(occupCell1 == "" && first_turn === true){
+  if(occupCell3 == "" && first_turn === true){
     document.querySelector(".O-Cell3").style.visibility = "visible";
-    occupCell1 = "O";
+    occupCell3 = "O";
     first_turn = false;
+    second_turn = true;
 
-  }else if(occupCell1 == "" && first_turn === false){
+  }else if(occupCell3 == "" && first_turn === false){
     document.querySelector(".X-Cell3").style.visibility = "visible";
-    occupCell1 = "X";
+    occupCell3 = "X";
     first_turn = true;
+    second_turn = false;
+
   }
 
 });
 
 
 cell4.addEventListener("click", function(){
-  if(occupCell1 == "" && first_turn === true){
+  if(occupCell4 == "" && first_turn === true){
     document.querySelector(".O-Cell4").style.visibility = "visible";
-    occupCell1 = "O";
+    occupCell4 = "O";
     first_turn = false;
+    second_turn = true;
 
-  }else if(occupCell1 == "" && first_turn === false){
+  }else if(occupCell4 == "" && first_turn === false){
     document.querySelector(".X-Cell4").style.visibility = "visible";
-    occupCell1 = "X";
+    occupCell4 = "X";
     first_turn = true;
+    second_turn = false;
   }
 });
 
 
 cell5.addEventListener("click", function(){
-  if(occupCell1 == "" && first_turn === true){
+  if(occupCell5 == "" && first_turn === true){
     document.querySelector(".O-Cell5").style.visibility = "visible";
-    occupCell1 = "O";
+    occupCell5 = "O";
     first_turn = false;
+    second_turn = true;
 
-  }else if(occupCell1 == "" && first_turn === false){
+  }else if(occupCell5 == "" && first_turn === false){
     document.querySelector(".X-Cell5").style.visibility = "visible";
-    occupCell1 = "X";
+    occupCell5 = "X";
     first_turn = true;
+    second_turn = false;
   }
 
 });
 
 
 cell6.addEventListener("click", function(){
-  if(occupCell1 == "" && first_turn === true){
+  if(occupCell6 == "" && first_turn === true){
     document.querySelector(".O-Cell6").style.visibility = "visible";
-    occupCell1 = "O";
+    occupCell6 = "O";
     first_turn = false;
+    second_turn = true;
 
-  }else if(occupCell1 == "" && first_turn === false){
+  }else if(occupCell6 == "" && first_turn === false){
     document.querySelector(".X-Cell6").style.visibility = "visible";
-    occupCell1 = "X";
+    occupCell6 = "X";
     first_turn = true;
+    second_turn = false;
   }
 });
 
 
 cell7.addEventListener("click", function(){
-  if(occupCell1 == "" && first_turn === true){
+  if(occupCell7 == "" && first_turn === true){
     document.querySelector(".O-Cell7").style.visibility = "visible";
-    occupCell1 = "O";
+    occupCell7 = "O";
     first_turn = false;
+    second_turn = true;
 
-  }else if(occupCell1 == "" && first_turn === false){
+  }else if(occupCell7 == "" && first_turn === false){
     document.querySelector(".X-Cell7").style.visibility = "visible";
-    occupCell1 = "X";
+    occupCell7 = "X";
     first_turn = true;
+    second_turn = false;
   }
 });
 
 
 cell8.addEventListener("click", function(){
-  if(occupCell1 == "" && first_turn === true){
+  if(occupCell8 == "" && first_turn === true){
     document.querySelector(".O-Cell8").style.visibility = "visible";
-    occupCell1 = "O";
+    occupCell8 = "O";
     first_turn = false;
+    second_turn = true;
 
-  }else if(occupCell1 == "" && first_turn === false){
+  }else if(occupCell8 == "" && first_turn === false){
     document.querySelector(".X-Cell8").style.visibility = "visible";
-    occupCell1 = "X";
+    occupCell8 = "X";
     first_turn = true;
+    second_turn = false;
   }
 });
 
 
 cell9.addEventListener("click", function(){
-  if(occupCell1 == "" && first_turn === true){
+  if(occupCell9 == "" && first_turn === true){
     document.querySelector(".O-Cell9").style.visibility = "visible";
-    occupCell1 = "O";
+    occupCell9 = "O";
     first_turn = false;
+    second_turn = true;
 
-  }else if(occupCell1 == "" && first_turn === false){
+  }else if(occupCell9 == "" && first_turn === false){
     document.querySelector(".X-Cell9").style.visibility = "visible";
-    occupCell1 = "X";
+    occupCell9 = "X";
     first_turn = true;
+    second_turn = false;
   }
 });
