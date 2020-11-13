@@ -47,8 +47,19 @@ let occupCell7 = "";
 let occupCell8 = "";
 let occupCell9 = "";
 
+
 let first_turn = true;
 let second_turn = false;
+
+function turns () {
+  if (first_turn === true && second_turn === false){
+    document.querySelector(".player1").style.visibility = "visible";
+    document.querySelector(".player2").style.visibility = "hidden";
+  }else if(first_turn === false && second_turn === true){
+    document.querySelector(".player1").style.visibility = "hidden";
+    document.querySelector(".player2").style.visibility = "visible";
+  }
+}
 
 cell1.addEventListener("click", function(){
   if(occupCell1 == "" && first_turn === true){
@@ -64,6 +75,7 @@ cell1.addEventListener("click", function(){
     second_turn = false;
   }
   win_condi();
+  turns();
 });
 
 
@@ -81,6 +93,7 @@ cell2.addEventListener("click", function(){
     second_turn = false;
   }
   win_condi();
+  turns();
 });
 
 
@@ -99,7 +112,7 @@ cell3.addEventListener("click", function(){
 
   }
   win_condi();
-
+  turns();
 });
 
 
@@ -117,6 +130,7 @@ cell4.addEventListener("click", function(){
     second_turn = false;
   }
   win_condi();
+  turns();
 });
 
 
@@ -134,6 +148,7 @@ cell5.addEventListener("click", function(){
     second_turn = false;
   }
   win_condi();
+  turns();
 });
 
 
@@ -151,6 +166,7 @@ cell6.addEventListener("click", function(){
     second_turn = false;
   }
   win_condi();
+  turns();
 });
 
 
@@ -168,6 +184,7 @@ cell7.addEventListener("click", function(){
     second_turn = false;
   }
   win_condi();
+  turns();
 });
 
 
@@ -185,6 +202,7 @@ cell8.addEventListener("click", function(){
     second_turn = false;
   }
   win_condi();
+  turns();
 });
 
 
@@ -202,6 +220,7 @@ cell9.addEventListener("click", function(){
     second_turn = false;
   }
   win_condi();
+  turns();
 });
 const blankWins = document.querySelector('.size');
 
@@ -232,6 +251,8 @@ function win_condi(){
 
 
     blankWins.textContent = occupCell1 + " Wins!";
+    document.querySelector(".player1").remove();
+    document.querySelector(".player2").remove();
   }
 
   if ((occupCell4 == "O" && occupCell5 == "O" && occupCell6 == "O") ||
@@ -258,6 +279,8 @@ function win_condi(){
       document.querySelector(".board").remove();
 
       blankWins.textContent = occupCell4 + " Wins!";
+      document.querySelector(".player1").remove();
+      document.querySelector(".player2").remove();
 
   }
 
@@ -284,6 +307,8 @@ function win_condi(){
       document.querySelector(".board").remove();
 
       blankWins.textContent = occupCell7 + " Wins!";
+      document.querySelector(".player1").remove();
+      document.querySelector(".player2").remove();
   }
 
   if ((occupCell1 == "O" && occupCell4 == "O" && occupCell7 == "O") ||
@@ -309,6 +334,8 @@ function win_condi(){
       document.querySelector(".board").remove();
 
       blankWins.textContent = occupCell1 + " Wins!";
+      document.querySelector(".player1").remove();
+      document.querySelector(".player2").remove();
 
   }
 
@@ -335,6 +362,8 @@ function win_condi(){
       document.querySelector(".board").remove();
 
       blankWins.textContent = occupCell2 + " Wins!";
+      document.querySelector(".player1").remove();
+      document.querySelector(".player2").remove();
   }
 
   if ((occupCell3 == "O" && occupCell6 == "O" && occupCell9 == "O") ||
@@ -360,6 +389,8 @@ function win_condi(){
       document.querySelector(".board").remove();
 
       blankWins.textContent = occupCell3 + " Wins!";
+      document.querySelector(".player1").remove();
+      document.querySelector(".player2").remove();
 
   }
 
@@ -386,6 +417,8 @@ function win_condi(){
       document.querySelector(".board").remove();
 
       blankWins.textContent = occupCell1 + " Wins!";
+      document.querySelector(".player1").remove();
+      document.querySelector(".player2").remove();
 
   }
 
@@ -412,6 +445,8 @@ function win_condi(){
       document.querySelector(".board").remove();
 
       blankWins.textContent = occupCell3 + " Wins!";
+      document.querySelector(".player1").remove();
+      document.querySelector(".player2").remove();
   }
 
   if(occupCell1 != "" && occupCell2 != "" && occupCell3 != "" &&
@@ -438,20 +473,10 @@ function win_condi(){
       document.querySelector(".board").remove();
 
       blankWins.textContent = "Draw!";
+      document.querySelector(".player1").remove();
+      document.querySelector(".player2").remove();
 
 
   }
 
 }
-<<<<<<< HEAD
-=======
-
-
-if (first_turn === true && second_turn === false){
-  document.querySelector(".player1").style.visibility = "visible";
-  document.querySelector(".player2").style.visibility = "hidden";
-}else if(first_turn === false && second_turn === true){
-  document.querySelector(".player1").style.visibility = "hidden";
-  document.querySelector(".player2").style.visibility = "visible";
-}
->>>>>>> 889d2d7def4e0a63f96ad4cd9647f5fd79bfb7b9
