@@ -26,6 +26,9 @@ document.querySelector(".X-Cell8").style.visibility = "hidden";
 document.querySelector(".O-Cell9").style.visibility = "hidden";
 document.querySelector(".X-Cell9").style.visibility = "hidden";
 
+document.querySelector(".player1").style.visibility = "visible";
+document.querySelector(".player2").style.visibility = "hidden";
+
 
 const cell1 = document.querySelector('.Cell1');
 const cell2 = document.querySelector('.Cell2');
