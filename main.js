@@ -53,14 +53,13 @@ let second_turn = false;
 
 let x = Math.random();
 if (x < 0.5) {
-  x= Math.floor(x)
+  x = Math.floor(x);
   first_turn = true;
   second_turn = false;
-}
-else {
-  x = Math.ceil(x)
-  second_turn = true;
+}else {
+  x = Math.ceil(x);
   first_turn = false;
+  second_turn = true;
 }
 
 function turns () {
