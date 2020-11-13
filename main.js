@@ -209,54 +209,245 @@ function win_condi(){
 
   if((occupCell1 == "O" && occupCell2 == "O" && occupCell3 == "O") ||
     (occupCell1 == "X" && occupCell2 == "X" && occupCell3 == "X")){
+      document.querySelector(".O-Cell4").remove();
+      document.querySelector(".X-Cell4").remove();
+      document.querySelector(".O-Cell1").remove();
+      document.querySelector(".X-Cell1").remove();
+      document.querySelector(".O-Cell2").remove();
+      document.querySelector(".X-Cell2").remove();
+      document.querySelector(".O-Cell3").remove();
+      document.querySelector(".X-Cell3").remove();
+      document.querySelector(".O-Cell5").remove();
+      document.querySelector(".X-Cell5").remove();
+      document.querySelector(".O-Cell6").remove();
+      document.querySelector(".X-Cell6").remove();
+      document.querySelector(".O-Cell7").remove();
+      document.querySelector(".X-Cell7").remove();
+      document.querySelector(".O-Cell8").remove();
+      document.querySelector(".X-Cell8").remove();
+      document.querySelector(".O-Cell9").remove();
+      document.querySelector(".X-Cell9").remove();
+      document.querySelector(".board").remove();
+
+
     blankWins.textContent = occupCell1 + " Wins!";
   }
 
   if ((occupCell4 == "O" && occupCell5 == "O" && occupCell6 == "O") ||
     (occupCell4 == "X" && occupCell5 == "X" && occupCell6 == "X")) {
+
+      document.querySelector(".O-Cell4").remove();
+      document.querySelector(".X-Cell4").remove();
+      document.querySelector(".O-Cell1").remove();
+      document.querySelector(".X-Cell1").remove();
+      document.querySelector(".O-Cell2").remove();
+      document.querySelector(".X-Cell2").remove();
+      document.querySelector(".O-Cell3").remove();
+      document.querySelector(".X-Cell3").remove();
+      document.querySelector(".O-Cell5").remove();
+      document.querySelector(".X-Cell5").remove();
+      document.querySelector(".O-Cell6").remove();
+      document.querySelector(".X-Cell6").remove();
+      document.querySelector(".O-Cell7").remove();
+      document.querySelector(".X-Cell7").remove();
+      document.querySelector(".O-Cell8").remove();
+      document.querySelector(".X-Cell8").remove();
+      document.querySelector(".O-Cell9").remove();
+      document.querySelector(".X-Cell9").remove();
+      document.querySelector(".board").remove();
+
       blankWins.textContent = occupCell4 + " Wins!";
 
   }
 
   if ((occupCell7 == "O" && occupCell8 == "O" && occupCell9 == "O") ||
     (occupCell7 == "X" && occupCell8 == "X" && occupCell9 == "X")) {
+      document.querySelector(".O-Cell4").remove();
+      document.querySelector(".X-Cell4").remove();
+      document.querySelector(".O-Cell1").remove();
+      document.querySelector(".X-Cell1").remove();
+      document.querySelector(".O-Cell2").remove();
+      document.querySelector(".X-Cell2").remove();
+      document.querySelector(".O-Cell3").remove();
+      document.querySelector(".X-Cell3").remove();
+      document.querySelector(".O-Cell5").remove();
+      document.querySelector(".X-Cell5").remove();
+      document.querySelector(".O-Cell6").remove();
+      document.querySelector(".X-Cell6").remove();
+      document.querySelector(".O-Cell7").remove();
+      document.querySelector(".X-Cell7").remove();
+      document.querySelector(".O-Cell8").remove();
+      document.querySelector(".X-Cell8").remove();
+      document.querySelector(".O-Cell9").remove();
+      document.querySelector(".X-Cell9").remove();
+      document.querySelector(".board").remove();
+
       blankWins.textContent = occupCell7 + " Wins!";
   }
 
   if ((occupCell1 == "O" && occupCell4 == "O" && occupCell7 == "O") ||
     (occupCell1 == "X" && occupCell4 == "X" && occupCell7 == "X")) {
+      document.querySelector(".O-Cell4").remove();
+      document.querySelector(".X-Cell4").remove();
+      document.querySelector(".O-Cell1").remove();
+      document.querySelector(".X-Cell1").remove();
+      document.querySelector(".O-Cell2").remove();
+      document.querySelector(".X-Cell2").remove();
+      document.querySelector(".O-Cell3").remove();
+      document.querySelector(".X-Cell3").remove();
+      document.querySelector(".O-Cell5").remove();
+      document.querySelector(".X-Cell5").remove();
+      document.querySelector(".O-Cell6").remove();
+      document.querySelector(".X-Cell6").remove();
+      document.querySelector(".O-Cell7").remove();
+      document.querySelector(".X-Cell7").remove();
+      document.querySelector(".O-Cell8").remove();
+      document.querySelector(".X-Cell8").remove();
+      document.querySelector(".O-Cell9").remove();
+      document.querySelector(".X-Cell9").remove();
+      document.querySelector(".board").remove();
+
       blankWins.textContent = occupCell1 + " Wins!";
 
   }
 
   if ((occupCell2 == "O" && occupCell5 == "O" && occupCell8 == "O") ||
     (occupCell2 == "X" && occupCell5 == "X" && occupCell8 == "X")) {
+      document.querySelector(".O-Cell4").remove();
+      document.querySelector(".X-Cell4").remove();
+      document.querySelector(".O-Cell1").remove();
+      document.querySelector(".X-Cell1").remove();
+      document.querySelector(".O-Cell2").remove();
+      document.querySelector(".X-Cell2").remove();
+      document.querySelector(".O-Cell3").remove();
+      document.querySelector(".X-Cell3").remove();
+      document.querySelector(".O-Cell5").remove();
+      document.querySelector(".X-Cell5").remove();
+      document.querySelector(".O-Cell6").remove();
+      document.querySelector(".X-Cell6").remove();
+      document.querySelector(".O-Cell7").remove();
+      document.querySelector(".X-Cell7").remove();
+      document.querySelector(".O-Cell8").remove();
+      document.querySelector(".X-Cell8").remove();
+      document.querySelector(".O-Cell9").remove();
+      document.querySelector(".X-Cell9").remove();
+      document.querySelector(".board").remove();
+
       blankWins.textContent = occupCell2 + " Wins!";
   }
 
   if ((occupCell3 == "O" && occupCell6 == "O" && occupCell9 == "O") ||
     (occupCell3 == "X" && occupCell6 == "X" && occupCell9 == "X")) {
+      document.querySelector(".O-Cell4").remove();
+      document.querySelector(".X-Cell4").remove();
+      document.querySelector(".O-Cell1").remove();
+      document.querySelector(".X-Cell1").remove();
+      document.querySelector(".O-Cell2").remove();
+      document.querySelector(".X-Cell2").remove();
+      document.querySelector(".O-Cell3").remove();
+      document.querySelector(".X-Cell3").remove();
+      document.querySelector(".O-Cell5").remove();
+      document.querySelector(".X-Cell5").remove();
+      document.querySelector(".O-Cell6").remove();
+      document.querySelector(".X-Cell6").remove();
+      document.querySelector(".O-Cell7").remove();
+      document.querySelector(".X-Cell7").remove();
+      document.querySelector(".O-Cell8").remove();
+      document.querySelector(".X-Cell8").remove();
+      document.querySelector(".O-Cell9").remove();
+      document.querySelector(".X-Cell9").remove();
+      document.querySelector(".board").remove();
+
       blankWins.textContent = occupCell3 + " Wins!";
 
   }
 
   if ((occupCell1 == "O" && occupCell5 == "O" && occupCell9 == "O") ||
     (occupCell1 == "X" && occupCell5 == "X" && occupCell9 == "X")) {
+      document.querySelector(".O-Cell4").remove();
+      document.querySelector(".X-Cell4").remove();
+      document.querySelector(".O-Cell1").remove();
+      document.querySelector(".X-Cell1").remove();
+      document.querySelector(".O-Cell2").remove();
+      document.querySelector(".X-Cell2").remove();
+      document.querySelector(".O-Cell3").remove();
+      document.querySelector(".X-Cell3").remove();
+      document.querySelector(".O-Cell5").remove();
+      document.querySelector(".X-Cell5").remove();
+      document.querySelector(".O-Cell6").remove();
+      document.querySelector(".X-Cell6").remove();
+      document.querySelector(".O-Cell7").remove();
+      document.querySelector(".X-Cell7").remove();
+      document.querySelector(".O-Cell8").remove();
+      document.querySelector(".X-Cell8").remove();
+      document.querySelector(".O-Cell9").remove();
+      document.querySelector(".X-Cell9").remove();
+      document.querySelector(".board").remove();
+
       blankWins.textContent = occupCell1 + " Wins!";
 
   }
 
   if ((occupCell3 == "O" && occupCell5 == "O" && occupCell7 == "O") ||
     (occupCell3 == "X" && occupCell5 == "X" && occupCell7 == "X")) {
+      document.querySelector(".O-Cell4").remove();
+      document.querySelector(".X-Cell4").remove();
+      document.querySelector(".O-Cell1").remove();
+      document.querySelector(".X-Cell1").remove();
+      document.querySelector(".O-Cell2").remove();
+      document.querySelector(".X-Cell2").remove();
+      document.querySelector(".O-Cell3").remove();
+      document.querySelector(".X-Cell3").remove();
+      document.querySelector(".O-Cell5").remove();
+      document.querySelector(".X-Cell5").remove();
+      document.querySelector(".O-Cell6").remove();
+      document.querySelector(".X-Cell6").remove();
+      document.querySelector(".O-Cell7").remove();
+      document.querySelector(".X-Cell7").remove();
+      document.querySelector(".O-Cell8").remove();
+      document.querySelector(".X-Cell8").remove();
+      document.querySelector(".O-Cell9").remove();
+      document.querySelector(".X-Cell9").remove();
+      document.querySelector(".board").remove();
+
       blankWins.textContent = occupCell3 + " Wins!";
+  }
+
+  if(occupCell1 != "" && occupCell2 != "" && occupCell3 != "" &&
+    occupCell4 != "" && occupCell5 != "" && occupCell6 != "" &&
+    occupCell7 != "" && occupCell8 != "" && occupCell9 != ""){
+      document.querySelector(".O-Cell4").remove();
+      document.querySelector(".X-Cell4").remove();
+      document.querySelector(".O-Cell1").remove();
+      document.querySelector(".X-Cell1").remove();
+      document.querySelector(".O-Cell2").remove();
+      document.querySelector(".X-Cell2").remove();
+      document.querySelector(".O-Cell3").remove();
+      document.querySelector(".X-Cell3").remove();
+      document.querySelector(".O-Cell5").remove();
+      document.querySelector(".X-Cell5").remove();
+      document.querySelector(".O-Cell6").remove();
+      document.querySelector(".X-Cell6").remove();
+      document.querySelector(".O-Cell7").remove();
+      document.querySelector(".X-Cell7").remove();
+      document.querySelector(".O-Cell8").remove();
+      document.querySelector(".X-Cell8").remove();
+      document.querySelector(".O-Cell9").remove();
+      document.querySelector(".X-Cell9").remove();
+      document.querySelector(".board").remove();
+
+      blankWins.textContent = "Draw!";
+
+
   }
 
 }
 
-if (first_turn == true && second_turn == false){
+
+if (first_turn === true && second_turn === false){
   document.querySelector(".player1").style.visibility = "visible";
   document.querySelector(".player2").style.visibility = "hidden";
-}else if(first_turn == false && second_turn == true){
+}else if(first_turn === false && second_turn === true){
   document.querySelector(".player1").style.visibility = "hidden";
   document.querySelector(".player2").style.visibility = "visible";
 }
