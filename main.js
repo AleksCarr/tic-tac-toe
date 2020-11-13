@@ -26,6 +26,7 @@ document.querySelector(".X-Cell8").style.visibility = "hidden";
 document.querySelector(".O-Cell9").style.visibility = "hidden";
 document.querySelector(".X-Cell9").style.visibility = "hidden";
 
+
 const cell1 = document.querySelector('.Cell1');
 const cell2 = document.querySelector('.Cell2');
 const cell3 = document.querySelector('.Cell3');
@@ -251,12 +252,4 @@ function win_condi(){
       blankWins.textContent = occupCell3 + " Wins!";
   }
 
-}
-
-if (first_turn == true && second_turn == false){
-  document.querySelector(".player1").style.visibility = "visible";
-  document.querySelector(".player2").style.visibility = "hidden";
-}else if(first_turn == false && second_turn == true){
-  document.querySelector(".player1").style.visibility = "hidden";
-  document.querySelector(".player2").style.visibility = "visible";
 }
