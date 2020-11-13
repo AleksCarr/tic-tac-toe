@@ -51,16 +51,15 @@ let occupCell9 = "";
 let first_turn = true;
 let second_turn = false;
 
-let x = Math.random();
-if (x < 0.5) {
-  x = Math.floor(x);
-  first_turn = true;
-  second_turn = false;
-}else {
-  x = Math.ceil(x);
-  first_turn = false;
-  second_turn = true;
+let x =(Math.random()>=0.5)? 1 : 0;
+if (x = 0){
+  let first_turn = true;
+  let second_turn = false;
+}else if(x = 1) {
+  let first_turn = false;
+  let second_turn = true;
 }
+
 
 function turns () {
   if (first_turn === true && second_turn === false){
