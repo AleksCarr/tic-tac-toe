@@ -89,7 +89,7 @@
   text-align: center;
   font-size: 40px;
 }
-
+.player1,
 .player2 {
   visibility: hidden;
 }

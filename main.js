@@ -51,6 +51,18 @@ let occupCell9 = "";
 let first_turn = true;
 let second_turn = false;
 
+let x = Math.random();
+if (x < 0.5) {
+  x= Math.floor(x)
+  first_turn = true;
+  second_turn = false;
+}
+else {
+  x = Math.ceil(x)
+  second_turn = true;
+  first_turn = false;
+}
+
 function turns () {
   if (first_turn === true && second_turn === false){
     document.querySelector(".player1").style.visibility = "visible";
